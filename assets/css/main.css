@@ -486,3 +486,13 @@ section, .section {
   color: #d4af37 !important;
   border-color: #0a1f44 !important;
 }
+/* ===== Multipage: halaman dalam (non-beranda) =====
+   Header memakai tampilan "scrolled" yang sudah ada sejak awal, dan section
+   pertama diberi ruang di bawah header fixed. Tidak ada perubahan desain lain. */
+.inner-page .header {
+  --background-color: #0a1f44;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
+  border-bottom: 2px solid #d4af37;
+}
+.inner-page .main > section:first-child { padding-top: 154px; }
+.inner-page .main > section.call-to-action:first-child { padding-top: 164px; }
