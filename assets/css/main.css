@@ -496,3 +496,44 @@ section, .section {
 }
 .inner-page .main > section:first-child { padding-top: 154px; }
 .inner-page .main > section.call-to-action:first-child { padding-top: 164px; }
+
+/* Deskripsi kategori layanan CKJ */
+.service-description {
+  position: relative !important;
+  width: 100%;
+  height: auto !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  background: #f5f7fa;
+  padding: 25px;
+  margin-top: 10px;
+  border-left: 4px solid #d6a900;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.service-description h4 {
+  color: #172b4d;
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.service-description p {
+  color: #444;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+/* Jarak tombol kategori */
+.portfolio-filters {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 25px;
+}
